@@ -1,0 +1,16 @@
+this project's source code is available on my github too
+link: https://github.com/Jameshaobam/flask-add-to-cart-functionality-with-api
+
+database schema
+
+ecom
+-products
+  -prd_id
+  -prd_title
+  -prd_price
+-cart
+  -cart_id
+  -cart_title
+  -cart_price
+
+pip install -r requirements.txt
