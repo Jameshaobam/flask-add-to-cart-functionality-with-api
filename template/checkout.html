@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ordered</title>
+    <style>
+        span.addrs{
+            color: green;
+        }
+        span.price{
+            color: green;
+        }
+    </style>
+</head>
+<body>
+
+  <a href="/products">Products</a>
+  <a href="/carts">Carts</a>
+
+    <h2>Order has been placed at <span class="addrs">
+
+    </span> </h2>
+    <h2>Total price is <span class="price">
+
+    </span></h2>
+    <script type="text/javascript">
+        let address = '{{ data.addrs }}'
+        let total_price = '{{ data.totalprice }}'
+        let addr = document.querySelector("span.addrs").innerText=address;
+        let price =  document.querySelector("span.price").innerText=total_price;        
+
+    </script>
+</body>
+</html>
