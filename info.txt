@@ -1,4 +1,5 @@
 this project's source code is available on my github too
+(James haobam)
 link: https://github.com/Jameshaobam/flask-add-to-cart-functionality-with-api
 
 database schema
